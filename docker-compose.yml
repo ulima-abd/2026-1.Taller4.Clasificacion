@@ -1,0 +1,10 @@
+services:
+  pyspark:
+    image: jupyter/pyspark-notebook:latest
+    ports:
+      - "8888:8888"   # Interfaz de Jupyter
+      - "4040:4040"   # Interfaz de monitoreo de Spark (Spark UI)
+    volumes:
+      - ./work:/home/abd/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
