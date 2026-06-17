@@ -1,12 +1,6 @@
 # Taller: Spark MLlib — Clasificación y Ajuste de Hiperparámetros
 
 **Tecnología sugerida:** PySpark 3.x · Python 3  
-**Temas cubiertos:**
-- LogisticRegression en Spark: solvers (L-BFGS, SGD), multiclase
-- DecisionTreeClassifier: maxDepth, minInstancesPerNode, impurity
-- CrossValidator y ParamGridBuilder: ajuste de hiperparámetros distribuido
-
-> **Prerrequisito:** Haber completado el taller anterior (Taller-Spark-MLlib-Pipeline) o tener un DataFrame de Spark con columnas `features_scaled` (Vector) y `default` (Int/Double) ya preparadas.
 
 ---
 
